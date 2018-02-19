@@ -1,6 +1,6 @@
 {
-  "name": "gulp-accessibility",
-  "version": "3.0.1",
+  "name": "gulp-accessibility-ext",
+  "version": "4.0.0",
   "description": "Grade your sites accessibility and generate a report from different WCAG levels",
   "main": "index.js",
   "engines": {
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yargalot/gulp-accessibility.git"
+    "url": "https://github.com/prantlf/gulp-accessibility.git"
   },
   "author": "Steven John Miller (http://www.stevenjohnmiller.com/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yargalot/gulp-accessibility/issues"
+    "url": "https://github.com/prantlf/gulp-accessibility/issues"
   },
-  "homepage": "https://github.com/yargalot/gulp-accessibility",
+  "homepage": "https://github.com/prantlf/gulp-accessibility",
   "keywords": [
     "gulpplugin",
     "accessibility",
@@ -40,7 +40,7 @@
     "run-sequence": "^1.2.2"
   },
   "dependencies": {
-    "access-sniff": "^3.0.0",
+    "access-sniff-ext": "^4.0.0",
     "gulp-util": "^3.0.7",
     "lodash": "^4.3.0",
     "through2": "^0.6.5"

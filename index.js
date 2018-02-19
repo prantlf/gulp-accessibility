@@ -6,7 +6,7 @@
 const _ = require('lodash');
 const gutil = require('gulp-util');
 const through = require('through2');
-const accessSniff = require('access-sniff');
+const accessSniff = require('access-sniff-ext');
 const StringDecoder = require('string_decoder').StringDecoder
 
 const PluginError = gutil.PluginError;
